@@ -1,0 +1,5 @@
+TESTU01_PREFIX=./TestU01-1.2.3/usr
+
+CFLAGS+=-I${TESTU01_PREFIX}/include
+LDFLAGS+=-L${TESTU01_PREFIX}/lib
+LDLIBS+=-ltestu01 -lprobdist -lm
