@@ -13,14 +13,13 @@ SmallCrunch test set, the others take a lot of time to run).
 
 Summary of tests:
 
--------------  --------------------------------
-  Algorithm      Result   
--------------  --------------------------------
- vonnewmann     historic value, very poor
- unix           poor
- java           poor
- marsene        good
- well           good and faster
- xorshift       good and fastest
- threefry       (very?) good, but slow
--------------  --------------------------------
+| Algorithm  | Result                         |  
+|------------|--------------------------------|
+| vonnewmann | historic value, very poor      |
+| unix       | poor                           |
+| java       | poor                           |
+| marsene    | good                           |
+| well       | good and faster.               |   
+| xorshift   | good and fastest               |
+| threefry   | (very?) good, but slow.        |
+
