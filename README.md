@@ -23,3 +23,22 @@ Summary of tests:
 | xorshift   | good and fastest               |
 | threefry   | (very?) good, but slow.        |
 
+## Setup
+
+Before compiling it is necessary to download and install
+TestU01 from here: https://simul.iro.umontreal.ca/testu01/tu01.html
+
+Expand the compressed files to a folder, for instance `./TestU01-x.y.z/`.
+You can chose to follow the instructions there in the `INSTALL` file,
+or do this:
+
+```
+cd TestU01-x.y.z/
+mkdir usr
+./configure --prefix=$(pwd)/usr
+make && make install
+````
+
+This will install to a subdirectory of the project (to ease cleanup).
+
+After all this, **do not forget to update the paths in the `Makefile`**.
