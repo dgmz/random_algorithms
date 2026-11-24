@@ -16,9 +16,9 @@ Summary of tests:
 -------------  --------------------------------
   Algorithm      Result   
 -------------  --------------------------------
- von Newmann    historic value, very poor
+ vonnewmann     historic value, very poor
  unix           poor
- java           poorer
+ java           poor
  marsene        good
  well           good and faster
  xorshift       good and fastest
